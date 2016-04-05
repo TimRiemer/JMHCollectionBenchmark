@@ -1,0 +1,3 @@
+= JMHCollectionBenchmark
+
+Litte Benchmark project to compare runtime of different collection types (on different JVMs)
