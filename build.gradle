@@ -52,3 +52,7 @@ jmh {
     jmhVersion = '1.12' // Specifies JMH version
 //    includeTests = false // Allows to include test sources into generate JMH jar, i.e. use it when benchmarks depend on the test classes.
 }
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '3.2.1'
+}
